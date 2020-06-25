@@ -14,10 +14,13 @@ Goals for the project are:
 * Avoid crashing into fence, fire-hydrants
 * Avoid driving over the occasional dog poop
 * Wait for people/bike/pets to pass in a safe area
+
 #### Verbal warnings
 * Provide verbal warnings when approaching obstacles or driving on the lawn. So kids learn its not okay and learn to maneuver out of those situations
+
 #### Follow me mode
 Sometimes, one or both kids want to get out and walk or be carried, so a hands-free follow me mode is required.
+
 #### Go home
 * This would be awesome to have because it requires crossing the street. Not sure if the sensors I've would be enough to detect ongoing traffic from all directions at a residential neighbor intersection
 
