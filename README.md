@@ -2,7 +2,7 @@
 Making a kids ride on car semi autonomous.
 
 # Motivation
-I work in the tech field and don't get to do a lot of hands-on work (coding, building things). So I've been taking the [Self-Driving Cars Specialization](https://www.coursera.org/specializations/self-driving-cars) on Coursera and wanted to do a project on that. Fortunately, my kids got a ride-on car from the grandparents for their birthday. Needless to say, I was more excited about it than my kids :)
+I've been taking the [Self-Driving Cars Specialization](https://www.coursera.org/specializations/self-driving-cars) on Coursera and wanted to do a project on that. Fortunately, my kids got a ride-on car from the grandparents for their birthday. Needless to say, I was more excited about it than my kids :)
 
 Since my kids are only 2 and 3, they cannot drive safely on their own, especially on the sidewalks where there are fences, and other obstacles. Fortunately, it comes with a remote that lets parents control it. But the remote has challenges of its own. You need two hands to drive the car, one for longitudinal motion and another for lateral. The front wheels don't auto center either after turning, so driving in a straight line is a challenge because you are pushing the left or right button to center it, and you end up driving in a zigzag. Then there is the problem of spurious left/right motion due to uneven driving surface even on paved sidewalks. So you are constantly monitoring the car, and minor distractions (like checking to see if my shoelace got undone) has led to driving on neighbors lawn or small brushes with the fence. It feels like flying an airplane without wing/nose levelers
 
