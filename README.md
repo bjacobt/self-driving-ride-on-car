@@ -51,22 +51,22 @@ I built six circuits on [Adafruit Perma-Proto boards](https://www.adafruit.com/p
 ![Raspberry Pi + remote + circuit for interfacing GPIO with touch controller](rpi_touch_controller_transistor_circuit.JPG)
 
 # Telemetry from the car
-Next step is to get feedback from the car for steering position and driving mode.
+The next step is to get feedback from the car for steering position and driving mode.
 
 
 ## Steering position sensing
-Almost all self-driving cars I've seen use radians to measure steering angle, but a single axis linear coordinate system is better for this car due to the steering construction. I plan on assigning -10 to left, 0 to center and +10 for right as shown below. 
+I've seen almost all self-driving cars use radians to measure steering angle, but a single-axis linear coordinate system is better for this car due to the steering construction. I plan on assigning -10 to the left, 0 to center, and +10 for right, as shown below. 
 ![Steering coordinates](steering-single-axis-diagram.png)
 
 Some options are
 1. Use a potentiometer, most likely linear to measure resistance and assign a value on the X-axis for 
-2. Use hall effect sensors with magnets mounted on steering rod
-3. Use ToF sensors and measure distance 
+2. Use hall effect sensors with magnets mounted on the steering rod
+3. Use ToF sensors and measure the distance 
 
 TBD
 
 ## Velocity and longitudinal motion sensing
-To get longitudinal motion I think best bet is to use hall effect sensors and magnets on the wheel to identify speed and direction
+To get longitudinal motion, I think the best bet is to use hall effect sensors and magnets on the wheel to identify speed and direction
 
 TBD
 
