@@ -44,7 +44,7 @@ The six pins are for the following functions Forward, Reverse, Left, Right, Spee
 ![Capacitive touch sensor controller pinout diagram](capacitive_touch_sensor_controller_diagram.png)
 
 ### Wiring remote to Raspberry Pi
-I built six circuits on [Adafruit Perma-Proto boards](https://www.adafruit.com/product/571?gclid=CjwKCAjwltH3BRB6EiwAhj0IULoPkd2ZcyuDW_MTVG1tCEflQ7JtR55zu2QEbKyM4xGwm5b_yYa4yhoCq0IQAvD_BwE) following [Output circuits using NPN transistor](https://elinux.org/RPi_GPIO_Interface_Circuits#Using_an_NPN_transistor). I used [PN2222 transistors] (https://www.adafruit.com/product/756) from adafruit and 1K resistors I had lying around at home.
+I built six circuits on [Adafruit Perma-Proto boards](https://www.adafruit.com/product/571?gclid=CjwKCAjwltH3BRB6EiwAhj0IULoPkd2ZcyuDW_MTVG1tCEflQ7JtR55zu2QEbKyM4xGwm5b_yYa4yhoCq0IQAvD_BwE) following [Output circuits using NPN transistor](https://elinux.org/RPi_GPIO_Interface_Circuits#Using_an_NPN_transistor). I used [PN2222 transistors](https://www.adafruit.com/product/756) from adafruit and 1K resistors I had lying around at home.
 ![Raspberry Pi + remote + circuit for interfacing GPIO with touch controller](rpi_touch_controller_transistor_circuit.JPG)
 
 # Telemetry from the car
