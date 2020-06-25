@@ -46,6 +46,7 @@ The six pins are for the following functions Forward, Reverse, Left, Right, Spee
 ### Wiring remote to Raspberry Pi
 I built six circuits on [Adafruit Perma-Proto boards](https://www.adafruit.com/product/571?gclid=CjwKCAjwltH3BRB6EiwAhj0IULoPkd2ZcyuDW_MTVG1tCEflQ7JtR55zu2QEbKyM4xGwm5b_yYa4yhoCq0IQAvD_BwE) following [Output circuits using NPN transistor](https://elinux.org/RPi_GPIO_Interface_Circuits#Using_an_NPN_transistor). I used [PN2222 transistors](https://www.adafruit.com/product/756) from adafruit and 1K resistors I had lying around at home.
 ![Raspberry Pi + remote + circuit for interfacing GPIO with touch controller](rpi_touch_controller_transistor_circuit.JPG)
+> I could have made the circuits smaller, but I prefer to have everything modular so testing is easier and I can swap out components when needed. Debugging circuts and solder issues are not fun and I had a few shorts that took a while to identify
 
 # Telemetry from the car
 The next step is to get feedback from the car for steering position and driving mode.
