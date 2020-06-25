@@ -56,6 +56,7 @@ The next step is to get feedback from the car for steering position and driving 
 
 ## Steering position sensing
 I've seen almost all self-driving cars use radians to measure steering angle, but a single-axis linear coordinate system is better for this car due to the steering construction. I plan on assigning -10 to the left, 0 to center, and +10 for right, as shown below. 
+
 ![Steering coordinates](steering-single-axis-diagram.png)
 
 Some options are
